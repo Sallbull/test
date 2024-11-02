@@ -1,0 +1,28 @@
+   <style>
+            h1 { 
+                border: 5px solid red;
+                padding: 20px;
+                Margin: 10px;
+                display: block;
+                width: 300px;
+            }
+
+            /* {
+                border-right: 1px solid gray;
+                margin: 0px;
+                width: 300px
+
+            }*/
+
+            #grid {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                border: 5px solid pink;
+            }
+            .grid-item {
+                text-align: center;
+                padding:10px;
+                border:1px solid gray;
+                background-color:blue;
+            }
+        </style>
